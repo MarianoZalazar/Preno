@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body {
+  background: #F4F5FA;
+  height: 100vh;
+  font-family: "Poppins";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #393D46;
+}
+
+
+.navbar {
+  display: inline !important;
+  padding-top: 0 !important;
+  text-align: center;
+  .logo {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */      
+    height: 10rem;
+    padding-left: 23rem;
+  }
+}
+
+.card{
+  border-radius:75px;
+}
+
+.color-text{
+  color: #393D46;
+}
+
+.curso-title{
+  font-weight: 600;
+  font-size:22px;
+}
+
+.curso-back{
+  height:6rem;
+}
+.nota-features{
+  font-weight: 600;
+  font-size:14px
+}
+.nota-text{
+  font-weight:300;
+  font-size:14px
+
+}
+
+.break-2{
+  width: 90% !important;
+}
+
+.break-3{
+  width:100% !important;
+}
